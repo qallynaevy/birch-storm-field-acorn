@@ -1,0 +1,317 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/first-aid-Pz02zLcp.js
+var firstAidGuides = [
+	{
+		slug: "henti-jantung",
+		title: "Henti jantung & RJP",
+		summary: "Orang tidak sadar dan tidak bernapas normal. Setiap detik berharga — tekan dada dan panggil bantuan.",
+		urgency: "segera",
+		call112: true,
+		icon: "heart",
+		steps: [
+			{
+				title: "Pastikan tempatnya aman",
+				body: "Jauhkan dari lalu lintas, api, atau listrik. Jangan jadi korban kedua."
+			},
+			{
+				title: "Periksa kesadaran",
+				body: "Tepuk bahu dan panggil namanya dengan keras. Jika tidak merespons, lihat dada: apakah naik-turun?"
+			},
+			{
+				title: "Minta orang lain menelepon 112",
+				body: "Kalau sendirian, telepon 112 dengan mode speaker lalu mulai RJP. Minta AED (alat kejut jantung) jika ada di gedung."
+			},
+			{
+				title: "Tekan tengah dada",
+				body: "Letakkan tumit telapak tangan di tengah dada, tangan lain di atasnya. Luruskan siku. Tekan dalam kira-kira 5–6 cm, 100–120 kali per menit. Biarkan dada kembali penuh setiap kali."
+			},
+			{
+				title: "Jangan berhenti",
+				body: "Ganti orang setiap 2 menit jika memungkinkan agar tekanan tetap kuat. Berhenti hanya jika orang itu bernapas normal, bantuan datang, atau kamu kelelahan total."
+			}
+		],
+		avoid: [
+			"Jangan menuang air ke wajah.",
+			"Jangan menepuk-nepuk pipi berulang tanpa memeriksa napas.",
+			"Jangan memindahkan orang kecuali tempatnya berbahaya."
+		],
+		after: ["Serahkan ke petugas medis dan ceritakan apa yang kamu lakukan.", "RJP awam adalah tekan dada. Napas buatan hanya jika kamu sudah dilatih."]
+	},
+	{
+		slug: "tersedak",
+		title: "Tersedak",
+		summary: "Makanan atau benda menyumbat jalan napas. Bertindak cepat, tetap tenang.",
+		urgency: "segera",
+		call112: true,
+		icon: "wind",
+		steps: [
+			{
+				title: "Tanya: bisa batuk atau bicara?",
+				body: "Jika masih bisa batuk keras atau bersuara, dorong dia terus batuk. Jangan tepuk punggung sembarangan saat dia masih batuk efektif."
+			},
+			{
+				title: "Jika tidak bisa batuk atau suara hilang",
+				body: "Berdiri di belakang, condongkan tubuhnya ke depan. Beri 5 tepukan tegas di antara tulang belikat dengan tumit telapak tangan."
+			},
+			{
+				title: "Tekanan perut (Heimlich)",
+				body: "Jika tepukan tidak berhasil: genggam tangan di atas pusar, di bawah tulang rusuk. Tarik ke dalam dan atas, 5 kali. Ulangi tepukan dan tekanan sampai benda keluar atau orang tidak sadar."
+			},
+			{
+				title: "Jika pingsan",
+				body: "Baringkan di lantai. Panggil 112. Mulai RJP. Setiap kali membuka jalan napas, lihat apakah benda terlihat di mulut — keluarkan hanya jika terlihat jelas."
+			}
+		],
+		avoid: ["Jangan memasukkan jari ke mulut jika benda tidak terlihat — bisa mendorongnya lebih dalam.", "Jangan menepuk punggung bayi seperti orang dewasa. Untuk bayi, posisi telungkup di lengan, kepala lebih rendah, tepukan di punggung."],
+		after: ["Meski benda sudah keluar, periksa ke fasilitas kesehatan jika batuk terus, nyeri, atau napas masih aneh."]
+	},
+	{
+		slug: "pendarahan",
+		title: "Pendarahan",
+		summary: "Darah yang deras harus dihentikan dengan tekanan langsung. Jangan menunggu sampai pucat.",
+		urgency: "segera",
+		call112: true,
+		icon: "droplet",
+		steps: [
+			{
+				title: "Tekan luka",
+				body: "Pakai kasa, kain bersih, atau pakaian. Tekan kuat dan terus-menerus. Angkat bagian tubuh yang luka lebih tinggi dari jantung jika memungkinkan."
+			},
+			{
+				title: "Tambah kain, jangan lepas yang basah",
+				body: "Jika darah merembes, tumpuk kain baru di atasnya. Melepas kain pertama bisa mengganggu bekuan."
+			},
+			{
+				title: "Balut tekan",
+				body: "Ikat kasa dengan perban atau kain. Cukup kencang untuk menahan darah, tidak sampai jari kebiru-biruan."
+			},
+			{
+				title: "Jaga kehangatan",
+				body: "Baringkan orang, selimuti. Syok bisa terjadi meski luka terlihat kecil."
+			}
+		],
+		avoid: [
+			"Jangan memakai obat merah, kopi, atau pasta gigi pada luka terbuka.",
+			"Jangan melepaskan benda yang menancap — bantalan di sekitarnya, biarkan petugas yang mencabut.",
+			"Torniket hanya untuk pendarahan hebat di lengan/tungkai yang tidak berhenti dengan tekanan, dan dicatat waktunya."
+		],
+		after: ["Cuci tangan setelah membantu.", "Luka dalam, gigitan, atau kotor perlu dibersihkan di faskes dan mungkin suntikan tetanus."]
+	},
+	{
+		slug: "luka-bakar",
+		title: "Luka bakar",
+		summary: "Dinginkan dengan air mengalir, jangan es. Luas dan dalam menentukan apakah harus ke rumah sakit.",
+		urgency: "cepat",
+		call112: false,
+		icon: "flame",
+		steps: [
+			{
+				title: "Amankan sumber panas",
+				body: "Matikan api, cabut listrik jika aman, atau jauhkan dari air panas. Lepas cincin dan jam sebelum bengkak."
+			},
+			{
+				title: "Dinginkan 20 menit",
+				body: "Aliri air bersih sedang, bukan es. Es merusak jaringan. Jika tidak ada air mengalir, kompres kain basah yang diganti."
+			},
+			{
+				title: "Tutup longgar",
+				body: "Pakai kasa bersih atau kain yang tidak berbulu. Jangan pecahkan lepuh."
+			},
+			{
+				title: "Ke rumah sakit jika",
+				body: "Bakar di wajah, tangan, kaki, sendi, atau kemaluan; lebih luas dari telapak tangan korban; melepuh dalam; atau korban anak, lansia, atau sesak napas."
+			}
+		],
+		avoid: [
+			"Jangan oleskan mentega, pasta gigi, kecap, atau kopi.",
+			"Jangan merobek pakaian yang menempel pada kulit.",
+			"Jangan memakai es batu langsung."
+		],
+		after: ["Minum air jika sadar, untuk mengganti cairan.", "Bakar akibat listrik atau kimia selalu perlu diperiksa tenaga kesehatan."]
+	},
+	{
+		slug: "pingsan",
+		title: "Pingsan",
+		summary: "Aliran darah ke otak menurun sejenak. Posisi dan napas lebih penting daripada dibangunkan dengan kasar.",
+		urgency: "cepat",
+		call112: false,
+		icon: "frown",
+		steps: [
+			{
+				title: "Baringkan dan angkat kaki",
+				body: "Tidurkan telentang, angkat kaki 20–30 cm. Longgarkan kerah, ikat pinggang, atau jilbab yang ketat di leher."
+			},
+			{
+				title: "Cek napas dan nadi situasi",
+				body: "Jika tidak bernapas normal, ini bukan pingsan biasa — mulai RJP dan telepon 112."
+			},
+			{
+				title: "Sisihkan jika muntah",
+				body: "Putar ke sisi (posisi pemulihan) agar jalan napas tetap terbuka."
+			},
+			{
+				title: "Bangunkan perlahan",
+				body: "Setelah sadar, duduk dulu beberapa menit sebelum berdiri. Beri minum jika sudah benar-benar sadar."
+			}
+		],
+		avoid: [
+			"Jangan disiram air atau ditampar.",
+			"Jangan diberi makan atau minum saat masih linglung.",
+			"Jangan dikerumuni — beri udara."
+		],
+		after: ["Telepon 112 jika pingsan saat olahraga, nyeri dada, kejang, diabetes, atau pingsan berulang.", "Istirahat dan makan/minum jika pingsan karena lapar atau panas."]
+	},
+	{
+		slug: "patah-tulang",
+		title: "Patah tulang & keseleo",
+		summary: "Diamkan, topang, dingin. Jangan memaksa sendi kembali ke tempatnya.",
+		urgency: "cepat",
+		call112: false,
+		icon: "bone",
+		steps: [
+			{
+				title: "Hentikan gerakan",
+				body: "Bantu orang duduk atau berbaring. Jangan menyuruh berdiri untuk 'coba-coba'."
+			},
+			{
+				title: "Topang seperti ditemukan",
+				body: "Gunakan bantal, kain, atau majalah digulung sebagai bidai sederhana. Ikat di atas dan bawah cidera, bukan di atas patahan."
+			},
+			{
+				title: "Kompres dingin",
+				body: "Es dibungkus kain, 15–20 menit. Mengurangi bengkak pada keseleo."
+			},
+			{
+				title: "Panggil bantuan jika",
+				body: "Tulang menonjol, kaki/tangan pucat atau kebas, cidera panggul/punggung/leher, atau orang tidak bisa menggerakkan anggota tubuh."
+			}
+		],
+		avoid: [
+			"Jangan mereset tulang yang geser.",
+			"Jangan memberi makan/minum jika mungkin perlu operasi.",
+			"Jangan memijat kencang area yang dicurigai patah."
+		],
+		after: ["RICE untuk keseleo ringan: Rest, Ice, Compression, Elevation.", "Foto rontgen hanya di faskes — jangan menunda jika bengkak cepat atau tidak bisa menahan beban."]
+	},
+	{
+		slug: "gigitan-ular",
+		title: "Gigitan ular",
+		summary: "Tenang, imobilisasi, cepat ke rumah sakit. Banyak mitos yang justru berbahaya.",
+		urgency: "segera",
+		call112: true,
+		icon: "bug",
+		steps: [
+			{
+				title: "Jauhkan dari ular",
+				body: "Mundur. Jangan memburu atau memukul ular. Foto dari jarak aman hanya jika tidak menunda pertolongan."
+			},
+			{
+				title: "Tenangkan dan batasi gerak",
+				body: "Duduk atau berbaring. Anggota tubuh yang tergigit diimobilisasi, kira-kira setinggi jantung. Lepas cincin dan jam."
+			},
+			{
+				title: "Ke rumah sakit segera",
+				body: "Telepon 112. Serum anti bisa ular hanya ada di faskes. Catat waktu gigitan."
+			},
+			{
+				title: "Tutup luka longgar",
+				body: "Kasa bersih cukup. Jangan mengikat kencang seperti torniket."
+			}
+		],
+		avoid: [
+			"Jangan dihisap, diiris, atau dibakar.",
+			"Jangan pasang torniket.",
+			"Jangan diberi es, kina, atau jamu.",
+			"Jangan lari — racun menyebar lebih cepat."
+		],
+		after: ["Bawa ke RS yang punya serum, bukan hanya ke klinik kecil jika memungkinkan.", "Semua gigitan ular perlu dinilai — beberapa ular berbisa gigitannya terasa ringan di awal."]
+	},
+	{
+		slug: "tenggelam",
+		title: "Tenggelam",
+		summary: "Keluarkan dari air dengan aman, lalu periksa napas. Paru bisa masih bermasalah meski sudah batuk.",
+		urgency: "segera",
+		call112: true,
+		icon: "waves",
+		steps: [
+			{
+				title: "Tolong tanpa jadi korban",
+				body: "Lempar pelampung, kayu, atau kain. Jangan menyelam jika kamu tidak terlatih dan arus kuat."
+			},
+			{
+				title: "Keluar dari air, cek napas",
+				body: "Jika tidak bernapas, mulai RJP di darat yang datar. Telepon 112."
+			},
+			{
+				title: "Posisi pemulihan jika bernapas",
+				body: "Miringkan tubuh, jaga hangat, jangan biarkan sendirian."
+			}
+		],
+		avoid: ["Jangan memijat perut untuk 'mengeluarkan air'.", "Jangan menunda RJP hanya untuk mengeringkan orang."],
+		after: ["Semua korban tenggelam harus diperiksa tenaga kesehatan, meski sudah batuk dan bicara. Paru bisa membengkak belakangan."]
+	},
+	{
+		slug: "kejang",
+		title: "Kejang",
+		summary: "Lindungi dari benturan, jangan ditahan, jangan dimasukkan benda ke mulut.",
+		urgency: "cepat",
+		call112: false,
+		icon: "zap",
+		steps: [
+			{
+				title: "Amankan sekitar",
+				body: "Geser barang tajam. Bantal atau kain di bawah kepala. Longgarkan yang menjepit leher."
+			},
+			{
+				title: "Biarkan kejang selesai",
+				body: "Catat waktunya. Jangan menahan lengan atau kaki. Jangan memasukkan sendok ke mulut."
+			},
+			{
+				title: "Setelah kejang",
+				body: "Posisi miring. Tetap di samping sampai sadar. Bicara tenang."
+			},
+			{
+				title: "Telepon 112 jika",
+				body: "Kejang lebih dari 5 menit, kejang berulang, cidera, kejang di air, orang hamil, diabetes, atau ini kejang pertama."
+			}
+		],
+		avoid: [
+			"Jangan memasukkan apa pun ke mulut — lidah tidak tertelan, gigi bisa patah.",
+			"Jangan disiram air.",
+			"Jangan diberi minum sebelum benar-benar sadar."
+		],
+		after: ["Biarkan istirahat. Banyak orang linglung atau mengantuk sesudahnya.", "Jika sudah punya obat kejang dari dokter, ikuti rencana yang sudah diajarkan keluarga."]
+	},
+	{
+		slug: "sengatan-panas",
+		title: "Sengatan panas",
+		summary: "Tubuh terlalu panas. Dinginkan segera. Ini bisa gawat darurat, bukan cuma capek.",
+		urgency: "segera",
+		call112: true,
+		icon: "sun",
+		steps: [
+			{
+				title: "Pindah ke teduh",
+				body: "Baringkan. Longgarkan pakaian. Kipas angin atau kipas tangan."
+			},
+			{
+				title: "Dinginkan tubuh",
+				body: "Kompres basah di leher, ketiak, dan lipat paha. Siram air jika sadar. Jangan es langsung ke kulit luas."
+			},
+			{
+				title: "Minum jika sadar",
+				body: "Air atau oralit sedikit-sedikit. Jangan dipaksa jika mual atau linglung."
+			},
+			{
+				title: "Darurat jika",
+				body: "Kulit panas, bingung, kejang, atau tidak sadar — telepon 112 dan terus dinginkan sampai bantuan datang."
+			}
+		],
+		avoid: ["Jangan beri obat demam sebagai pengganti pendinginan.", "Jangan biarkan olahraga berlanjut 'supaya tahan panas'."],
+		after: ["Istirahat di ruangan sejuk 24 jam.", "Bayi, lansia, dan orang dengan penyakit kronis lebih rentan — jangan ditunda."]
+	}
+];
+function getFirstAid(slug) {
+	return firstAidGuides.find((g) => g.slug === slug);
+}
+//#endregion
+export { getFirstAid as n, firstAidGuides as t };

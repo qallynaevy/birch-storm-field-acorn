@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SiagaKu",
+      "hasCanvas": false,
+      "bodyTextLen": 945,
+      "bodyTextHash": "94ec88d693e6863012f72b015699f01976327624f60ba763490865ffd7066db2",
+      "bodyTextPrefix": "SiagaKu Siap sebelum bencana Beranda Darurat Panduan Siaga Eduka",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SiagaKu",
+      "hasCanvas": false,
+      "bodyTextLen": 1052,
+      "bodyTextHash": "de18c32c3b4a68b21c1053d123b64ba258f763b843b98aa48e449cf64d389d5c",
+      "bodyTextPrefix": "SiagaKu KESIAPSIAGAAN WARGA Siap dimulai dari rumah. Nomor darur",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text changed (889 -> 1052 chars, hash mismatch)"
+  ]
+}

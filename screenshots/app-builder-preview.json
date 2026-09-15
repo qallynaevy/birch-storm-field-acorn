@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SiagaKu",
+      "hasCanvas": false,
+      "bodyTextLen": 940,
+      "bodyTextHash": "f734256353fb7dde261339fc177e84d1b93565fd32338b25f3760a89092f43bd",
+      "bodyTextPrefix": "SiagaKu Siap sebelum bencana Beranda Darurat Panduan Siaga Eduka",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SiagaKu",
+      "hasCanvas": false,
+      "bodyTextLen": 889,
+      "bodyTextHash": "fff5f7429eb57abf11c6ba3fe324088011a4b89bc3269d6fea5e0fff738fd170",
+      "bodyTextPrefix": "SiagaKu KESIAPSIAGAAN WARGA Siap dimulai dari rumah. Nomor darur",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
